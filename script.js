@@ -32,7 +32,7 @@ setInterval(createHeart, 300);
 const daysCountSpan = document.getElementById("daysCount");
 function updateDays() {
   if (!daysCountSpan) return;
-  const startDate = new Date(2026, 0, 3);
+  const startDate = new Date(2025, 11, 24);
   const today = new Date();
   startDate.setHours(0,0,0,0);
   today.setHours(0,0,0,0);
@@ -72,11 +72,11 @@ window.addEventListener('resize', positionClockNumbers);
 
 // ===== MENSAJE DIARIO =====
 const messages = [
-  "TE AMOOO ILHAMMM",
-  "Te amo mi bebe 🌹",
-  "ISRMANNNNNN✨",
-  "Btata M9Lia💕",
-  "Eres mi novia?💝"
+  "TE AMO SARUQUI",
+  "TE AMO MI NIÑA 🌹",
+  "TE ADORO MI BICHITO✨",
+  "MI REINA, MI PRINCESA, MI TESORO💕",
+  "LA MAS BELLA DEL UNIVERSO💝"
 ];
 const dailyMessageSpan = document.querySelector(".daily-message");
 
